@@ -1,25 +1,17 @@
 {
   "name": "scoreboard",
-  "version": "0.0.1",
-  "description": "Scoreboard website for hu arcade",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "true"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hudevelopment/scoreboard.git"
-  },
-  "keywords": [
-    "scoreboard"
-  ],
-  "author": "HU Maker club",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hudevelopment/scoreboard/issues"
-  },
-  "homepage": "https://github.com/hudevelopment/scoreboard#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
   }
 }
